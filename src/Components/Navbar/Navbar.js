@@ -83,8 +83,8 @@ const Navbar = () => {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <a>About us</a>
-        <a>Contact us</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
         <Dropdown>
           <Dropdown.Toggle variant="" id="dropdown-basic">
             Extra
