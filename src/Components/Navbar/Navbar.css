@@ -96,3 +96,9 @@ nav .sec2 a{
     font-weight: 500;
     cursor: pointer;
 }
+
+@media  screen and (max-width: 400px) {
+    nav img{
+        width: 80px;
+    }
+}
