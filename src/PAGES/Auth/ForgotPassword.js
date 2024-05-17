@@ -8,7 +8,7 @@ const ForgotPassword = () => {
             <Navbar reloadnavbar={false}/>
 
             <div className='authcont'>
-                <img src='https://images.unsplash.com/photo-1495480137269-ff29bd0a695c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80'
+                <img src='https://img.freepik.com/free-vector/forgot-password-concept-illustration_114360-1095.jpg?t=st=1715967722~exp=1715971322~hmac=ab5b414fbe6019437b89695f0cd06ebeb7ad867855ae1ea7ec2e8ace85b21176&w=740'
                     alt='signup' />
 
                 <form className='authform'>

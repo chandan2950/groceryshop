@@ -8,7 +8,7 @@ const Login = () => {
             <Navbar reloadnavbar={false}/>
 
             <div className='authcont'>
-                <img src='https://images.unsplash.com/photo-1495480137269-ff29bd0a695c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80'
+                <img src='https://img.freepik.com/free-vector/grocery-promotion-concept-illustration_114360-19312.jpg?w=740&t=st=1715966586~exp=1715967186~hmac=9ff4b63aa404a817f70371ae3fbe128b948ce4257845e0136996993416d66689'
                     alt='login' />
 
                 <form className='authform'>

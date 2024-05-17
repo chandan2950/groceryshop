@@ -12,7 +12,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="logo" />
 
         <div className="Searchbar">
-          <input type="text" placeholder="Search for products" />
+          <input type="text" placeholder="Hello Chandan Search for products" />
           <button>
             <svg
               xmlns="http://www.w3.org/2000/svg"
