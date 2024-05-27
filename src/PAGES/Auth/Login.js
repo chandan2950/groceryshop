@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../../Components/Navbar/Navbar'
 import './AuthPage.css'
+import Footer1 from '../../Components/Footer/Footer'
 const Login = () => {
     return (
         <div className='authpage'>
@@ -42,7 +43,11 @@ const Login = () => {
                     </Link>
                 </form>
             </div>
+            <div>
+                <Footer1/>
+            </div>
         </div>
+        
     )
 }
 
