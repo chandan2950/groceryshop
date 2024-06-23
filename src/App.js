@@ -5,6 +5,7 @@ import './App.css'
 import Login from './PAGES/Auth/Login';
 import Signup from './PAGES/Auth/Signup';
 import ForgotPassword from './PAGES/Auth/ForgotPassword';
+import ProductPage from './PAGES/Product/ProductPage';
 
 export const App = () => {
   return (
@@ -12,6 +13,11 @@ export const App = () => {
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/home' element={<Home />}/>
+      <Route path="/product/:prodid" 
+          element={
+            <ProductPage/>
+          }
+        />
       <Route path='*' element={<div> oops 404 Page Not Found!!!!!</div>}/>
       <Route path="/login" element={<Login/>} />
       <Route path="/signup" element={<Signup/>} />

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import Navbar from '../../Components/Navbar/Navbar'
 import './AuthPage.css'
 import Footer1 from '../../Components/Footer/Footer'
+
+
 const Login = () => {
     return (
         <div className='authpage'>

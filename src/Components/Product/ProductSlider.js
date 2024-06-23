@@ -1,8 +1,8 @@
 import React from 'react'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+// import Carousel from 'react-multi-carousel';
 import ProductCard from './ProductCard';
-import './ProductsSlider.css'
+import './ProductSlider.css'
+
 const ProductsSlider = ({ products, categoryname }) => {
 
     const responsive = {
@@ -55,7 +55,7 @@ const ProductsSlider = ({ products, categoryname }) => {
         <div className='productsliderout' >
             <h1>{categoryname}</h1>
 
-            <Carousel responsive={responsive} 
+            {/* <Carousel responsive={responsive} 
             autoPlay={true}
             autoPlaySpeed={3000}
             swipeable={true}
@@ -66,7 +66,7 @@ const ProductsSlider = ({ products, categoryname }) => {
                         <ProductCard data={item} key={index} />
                     )
                 })}
-            </Carousel>
+            </Carousel> */}
         </div >
     )
 }
